@@ -1,5 +1,4 @@
-﻿
-Console.Write ("Enter array elements separated by spaces: ");
+﻿Console.Write ("Enter array elements separated by spaces: ");
 string inputString = Console.ReadLine();
 var array1 = inputString.Split(' ').ToArray();
 
@@ -9,8 +8,8 @@ foreach (var element in array1) {
 } 
 
 var array2 = new string[count]; 
-int j = 0; 
 
+int j = 0; 
 for (int i = 0; i < array1.Length; i++) { 
     if (array1[i].Length <= 3) {
        array2[j++] = array1[i]; 
